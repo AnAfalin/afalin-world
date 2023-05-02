@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fancybox</title>
+<link rel="stylesheet" href="jquery.fancybox.min.css">
+</head>
+<body>
+
+<a href="http://fancyapps.com/fancybox/3/">Документация</a>
+<a href="https://github.com/fancyapps/fancybox">Репозиторий</a>
+
+<a href="https://via.placeholder.com/600" data-fancybox="gallery"><img src="https://via.placeholder.com/150" alt=""></a>
+
+<script src="../jquery.js"></script>
+<script src="jquery.fancybox.min.js"></script>
+<script>
+$(document).ready(function() {
+	$('[data-fancybox="gallery"], [data-fancybox]').fancybox();
+});
+</script>
+
+</body>
+</html>
