@@ -5,9 +5,9 @@
 			<a class="tproger" href="https://tproger.ru" target="_blank" rel="noopener">Tproger</a>
 			<a class="proglib" href="https://proglib.io" target="_blank" rel="noopener">Proglib</a>
 			<a class="habr" href="https://habr.com" target="_blank" rel="noopener">Хабр</a>
-			<a class="jsbook" href="https://learn.javascript.ru" target="_blank" rel="noopener">JavaScript book</a>
+<!--			<a class="jsbook" href="https://learn.javascript.ru" target="_blank" rel="noopener">JavaScript book</a>-->
 			<a class="oracle" href="https://docs.oracle.com/en/java/index.html" target="_blank" rel="noopener">Oracle. Java</a>
-			<a class="programiz" href="https://www.programiz.com" target="_blank" rel="noopener">Programiz</a>
+<!--			<a class="programiz" href="https://www.programiz.com" target="_blank" rel="noopener">Programiz</a>-->
 		</div>
 
 	<!-- Погода -->

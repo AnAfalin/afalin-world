@@ -195,7 +195,7 @@ nav a:nth-child(even) {
 }
 #page #section {
 	flex-grow: 1;
-	padding: 0 60px;
+	padding: 10px 60px;
 }
 #page #sidebar {
 	min-width: 260px;
@@ -250,7 +250,7 @@ nav a:nth-child(even) {
 	background: url(images/sidebar/oracle.png);
 }
 #sidebar .links .programiz::before {
-	background: url(images/sidebar/programiz.png);
+	background: url(../readme/section_blog/programiz.png);
 }
 #sidebar .whether {
 	margin: 20px auto;
@@ -319,6 +319,21 @@ footer .container {
 	color:  #000585;
 }
 
+/* About */
+#about {
+	text-align: justify;
+}
+#about .photo {
+	float: left;
+	max-width: 250px;
+	margin: 25px 25px 0px 0;
+}
+#about .progcat {
+	max-width: 150px;
+	display: block;
+	margin: 25px auto 30px;
+}
+
 /* Blog */
 #portfolio .projects {
 	display: flex;
@@ -342,7 +357,6 @@ footer .container {
 #portfolio .item .preview {
 	border: 2px solid #041567;
 	border-radius: 10px;
-	padding: 6px;
 	box-sizing: border-box;
 }
 #portfolio .item .descr {
@@ -421,7 +435,42 @@ footer .container {
 	font-size: 13px;
 }
 
-
+/* Contacts */
+#contacts {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0 50px 0;
+}
+#contacts .col {
+	width: 50%;
+}
+#contacts .col.c1 > div {
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+#contacts .col.c2 .field {
+	font-size: 0.8em;
+	padding: 15px;
+	margin: 10px 0px;
+	display: block;
+	width: 90%;
+	box-sizing: border-box;
+}
+#contacts .col.c2 textarea.field {
+	resize: none;
+	font-size: 1.2em;
+}
+#contacts .btn {
+	border: 1px solid #041567;
+	background-color: #a6d4ff;
+	padding: 8px 15px;
+	border-radius: 6px;
+}
+#contacts .cat {
+	width: 30%;
+}
 
 /* Адаптив */
 @media all and (min-width: 1211px) {
