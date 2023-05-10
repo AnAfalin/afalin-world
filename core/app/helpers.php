@@ -4,4 +4,8 @@ function p($text) {
 	print_r($text);
 	echo "</pre>";
 }
+function redirect($url) {
+    // die("<script>window.location.href='{$url}'</script>");
+    header("Location: ".$url);
+}
 ?>

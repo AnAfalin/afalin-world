@@ -286,6 +286,7 @@ footer .container {
 }
 #main .main_img .bimg {
 	box-shadow: 2px 1px 9px 2px black;
+	margin-bottom: 20px;
 }
 
 #news .item {
@@ -440,6 +441,7 @@ footer .container {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px 0 50px 0;
+	gap: 50px;
 }
 #contacts .col {
 	width: 50%;
@@ -455,7 +457,7 @@ footer .container {
 	padding: 15px;
 	margin: 10px 0px;
 	display: block;
-	width: 90%;
+	width: 100%;
 	box-sizing: border-box;
 }
 #contacts .col.c2 textarea.field {
@@ -468,8 +470,12 @@ footer .container {
 	padding: 8px 15px;
 	border-radius: 6px;
 }
-#contacts .cat {
-	width: 30%;
+#contacts .msg {
+	background-color: #6fd96f;
+	color: black;
+	padding: 5px 10px 6px;
+	border: 1px solid;
+	border-radius: 5px;
 }
 
 /* Адаптив */

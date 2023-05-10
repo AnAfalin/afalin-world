@@ -11,7 +11,7 @@
 
     <div class="col c2">
         <h2>Форма обратной связи</h2>
-        <form action="#" method="post" class="contact">
+        <form action="/post" method="post" class="contact">
             <div class="field_area">
                 <label for="phone">Имя</label>
                 <input class="field" type="text" id="name" name="NAME" placeholder="Ваше имя" required>
@@ -21,15 +21,24 @@
                 <input class="field" type="text" id="phone" name="PHONE" placeholder="Ваш номер телефона">
             </div>
             <div class="field_area">
+                <label for="email">E-mail</label>
+                <input class="field" type="text" id="email" name="EMAIL" placeholder="Ваш e-mail">
+            </div>
+            <div class="field_area">
                 <label for="message">Сообщение*</label>
-                <textarea class="field" name="MESSAGE" id="message" rows="5" placeholder="Сообщение"></textarea>
+                <textarea class="field" name="MESSAGE" id="message" rows="5" placeholder="Сообщение" required></textarea>
             </div>
-            <div class="field_area<? if (isset($_GET['result'])) echo($_GET['result'] ? " true" : " false") ?>">
-                <? if (isset($_GET['status'])) echo $_GET['status']; ?>
+            <div class="field_area<? if(isset($_GET['status'])) echo " true" ?>">
             </div>
+            <? if(!isset($_GET['status'])): ?>
+            <input type="hidden" name="CODE" value="CONTACT">
             <input type="submit" value="Отправить" class="btn">
-            <div class="msg">
-            </div>
+            <? else: ?>
+                <div class="msg">
+                    Сообщение отправлено
+                </div>
+            <? endif; ?>
+
         </form>
     </div>
 </div>
